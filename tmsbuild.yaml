@@ -7,7 +7,6 @@
 
 minimum required tmsbuild version: 2.0
 
-# General information about the product.
 application:
   id: c4d.maskedit
   name: C4D Mask Edit
@@ -16,11 +15,19 @@ application:
   url: https://github.com/Solusys/C4D-MaskEdit
   vcs protocol: git
 
+# valid ide values:
+#   delphi6/delphi7/delphi2005/delphi2006/delphi2007/delphi2009/delphi2010/delphixe/delphixe2..delphixe8
+#   delphiseattle/delphiberlin/delphitokyo/delphirio/delphisydney/delphi11..delphi12
+#   lazarus
+
+# platforms you can write below:
+#  win32intel/win64intel/win64xintel/winarm64ec/macos32intel/macos64intel/macos64arm/iossimulator/iosdevice32/iosdevice64/android32/android64/linux64
+
 # Frameworks are just a group of supported IDEs and platforms. You can define as much as you want
 # with any name you desire, and then combine them to specify what platforms and IDEs the packages support.
 supported frameworks:
   vcl:
-    ide since: delphi12 # Declares support starting from Delphi X
+    ide since: delphiseattle # Declares support starting from Delphi X
     platforms:
       - win32intel
       - win64xintel
@@ -30,7 +37,7 @@ supported frameworks:
 packages:
   - c4d-maskedit: [runtime, design, vcl]
 
-# The settings in the this section are only needed if the packages don't follow smartsetup conventions.
+# The settings in the this section are only needed if the packages don't follow smartsetup conventions
 package options:
   package folders:
     delphi12+: c4d-maskedit # Identify the packages folder for this version.

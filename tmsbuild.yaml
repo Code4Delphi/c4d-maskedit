@@ -27,7 +27,7 @@ application:
 # with any name you desire, and then combine them to specify what platforms and IDEs the packages support.
 supported frameworks:
   vcl:
-    ide since: delphirio # {$LIBSUFFIX AUTO} only works reliably from Delphi 11 on
+    ide since: delphi11 # {$LIBSUFFIX AUTO} only works reliably from Delphi 11 on
     platforms:
       - win32intel
       - win64intel
@@ -38,8 +38,3 @@ supported frameworks:
 # It is a single package with both runtime and design-time (Register) code.
 packages:
   - C4DMaskEdit: [runtime, design, vcl]
-
-# The settings in the this section are only needed if the packages don't follow smartsetup conventions
-package options:
-  package folders:
-    delphirio+: c4d-maskedit # Identify the packages folder for this version.

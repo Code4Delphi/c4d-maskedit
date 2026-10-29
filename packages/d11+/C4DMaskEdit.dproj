@@ -130,10 +130,10 @@
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
         <DCCReference Include="vcl.dcp"/>
-        <DCCReference Include="Src\C4D.MaskEdit.pas"/>
-        <DCCReference Include="Src\C4D.MaskEdit.Utils.pas"/>
-        <DCCReference Include="Src\C4D.MaskEdit.Consts.pas"/>
-        <RcItem Include="Img\TC4DMaskEdit.bmp">
+        <DCCReference Include="..\..\Src\C4D.MaskEdit.pas"/>
+        <DCCReference Include="..\..\Src\C4D.MaskEdit.Utils.pas"/>
+        <DCCReference Include="..\..\Src\C4D.MaskEdit.Consts.pas"/>
+        <RcItem Include="..\..\Img\TC4DMaskEdit.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TC4DMaskEdit</ResourceId>
         </RcItem>

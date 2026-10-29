@@ -35,8 +35,8 @@ requires
   vcl;
 
 contains
-  C4D.MaskEdit in 'Src\C4D.MaskEdit.pas',
-  C4D.MaskEdit.Utils in 'Src\C4D.MaskEdit.Utils.pas',
-  C4D.MaskEdit.Consts in 'Src\C4D.MaskEdit.Consts.pas';
+  C4D.MaskEdit in '..\..\Src\C4D.MaskEdit.pas',
+  C4D.MaskEdit.Utils in '..\..\Src\C4D.MaskEdit.Utils.pas',
+  C4D.MaskEdit.Consts in '..\..\Src\C4D.MaskEdit.Consts.pas';
 
 end.

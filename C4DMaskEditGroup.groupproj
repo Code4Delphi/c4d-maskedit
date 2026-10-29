@@ -3,7 +3,7 @@
         <ProjectGuid>{14BDF014-002B-4D65-832F-8EEAA11A9CD4}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="C4DMaskEdit.dproj">
+        <Projects Include="packages\d11+\C4DMaskEdit.dproj">
             <Dependencies/>
         </Projects>
         <Projects Include="Samples\Demo01\C4DMaskEditDemo01.dproj">
@@ -18,13 +18,13 @@
         </BorlandProject>
     </ProjectExtensions>
     <Target Name="C4DMaskEdit">
-        <MSBuild Projects="C4DMaskEdit.dproj"/>
+        <MSBuild Projects="packages\d11+\C4DMaskEdit.dproj"/>
     </Target>
     <Target Name="C4DMaskEdit:Clean">
-        <MSBuild Projects="C4DMaskEdit.dproj" Targets="Clean"/>
+        <MSBuild Projects="packages\d11+\C4DMaskEdit.dproj" Targets="Clean"/>
     </Target>
     <Target Name="C4DMaskEdit:Make">
-        <MSBuild Projects="C4DMaskEdit.dproj" Targets="Make"/>
+        <MSBuild Projects="packages\d11+\C4DMaskEdit.dproj" Targets="Make"/>
     </Target>
     <Target Name="C4DMaskEditDemo01">
         <MSBuild Projects="Samples\Demo01\C4DMaskEditDemo01.dproj"/>

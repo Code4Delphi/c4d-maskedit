@@ -38,3 +38,11 @@ supported frameworks:
 # It is a single package with both runtime and design-time (Register) code.
 packages:
   - C4DMaskEdit: [runtime, design, vcl]
+
+# The settings in the this section are only needed if the packages don't follow smartsetup conventions
+package options:
+  # Use this section only if you are not using the standard smartsetup folders for the packages.
+  # Note that if the same folder supports for example Delphi 11 and Delphi 12 (by using Lbsuffix $(auto)), you can 
+  # write the same folder for 11 and 12.
+  package folders: 
+    delphi11+: C4DMaskEdit

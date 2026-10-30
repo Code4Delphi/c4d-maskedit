@@ -33,8 +33,8 @@ supported frameworks:
       - win64intel
     c++ builder support: false
 
-# The package is in packages\d11+\C4DMaskEdit.dproj (standard SmartSetup naming),
-# so no "package options" section is needed.
+# The package is in packages\C4DMaskEdit.dproj (not in the standard packages\d11+ folder),
+# so the "package options" section below tells SmartSetup where to find it.
 # It is a single package with both runtime and design-time (Register) code.
 packages:
   - C4DMaskEdit: [runtime, design, vcl]
@@ -45,4 +45,4 @@ package options:
   # Note that if the same folder supports for example Delphi 11 and Delphi 12 (by using Lbsuffix $(auto)), you can 
   # write the same folder for 11 and 12.
   package folders: 
-    delphi11+: C4DMaskEdit
+    delphi11+: packages

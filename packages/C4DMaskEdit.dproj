@@ -130,10 +130,10 @@
         </DelphiCompile>
         <DCCReference Include="rtl.dcp"/>
         <DCCReference Include="vcl.dcp"/>
-        <DCCReference Include="..\..\Src\C4D.MaskEdit.pas"/>
-        <DCCReference Include="..\..\Src\C4D.MaskEdit.Utils.pas"/>
-        <DCCReference Include="..\..\Src\C4D.MaskEdit.Consts.pas"/>
-        <RcItem Include="..\..\Img\TC4DMaskEdit.bmp">
+        <DCCReference Include="..\Src\C4D.MaskEdit.pas"/>
+        <DCCReference Include="..\Src\C4D.MaskEdit.Utils.pas"/>
+        <DCCReference Include="..\Src\C4D.MaskEdit.Consts.pas"/>
+        <RcItem Include="..\Img\TC4DMaskEdit.bmp">
             <ResourceType>BITMAP</ResourceType>
             <ResourceId>TC4DMaskEdit</ResourceId>
         </RcItem>
@@ -167,6 +167,7 @@
                 <DeployFile LocalName="C:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl\C4DMaskEdit290.bpl" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <Operation>0</Operation>
+                        <RemoteName>C4DMaskEdit.bpl</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
